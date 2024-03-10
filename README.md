@@ -22,10 +22,11 @@ This project is a combination of Angular frontend and Python backend. It provide
     pip install -r requirements.txt
     ```
 
-3. Navigate back to the project root folder:
+3. Navigate back to the project root folder and go to the frontend folder:
 
     ```bash
     cd ..
+    cd frontend
     ```
 
 4. Install the required npm packages for the Angular frontend:
