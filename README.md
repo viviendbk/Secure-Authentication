@@ -63,3 +63,7 @@ This project is a combination of Angular frontend and Python backend. It provide
 - Sign up: Allows users to create a new account by providing an email and password.
 - Sign in: Allows users to sign in to their account with their email and password.
 - Authentication: Validates user credentials and provides access to protected resources.
+- Online security : delay of 100ms at each attempt of connexion to prevent from online bruteforce attack
+- Offline security : In case of data breach all password are hashed with the algorithm argon2 that creates natively a random salt for each encryption. To increase the security, we have added a pepper to the password that change for each user. It contains the email address of the user and 20 character defined in our .env.
+  ![image](https://github.com/viviendbk/Secure-Authentication/assets/113977328/f53f8447-e44f-4272-a648-f77c33d34f6b)
+
