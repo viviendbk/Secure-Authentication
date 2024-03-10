@@ -42,7 +42,7 @@ This project is a combination of Angular frontend and Python backend. It provide
 
     ```bash
     cd backend
-    python app.py
+    python server.py
     ```
 
 2. The backend server will start running at `http://localhost:5000`.
