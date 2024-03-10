@@ -6,7 +6,6 @@ This project is a combination of Angular frontend and Python backend. It provide
 
 - Node.js and npm installed on your machine.
 - Python installed on your machine.
-- PostgreSQL database set up.
 
 ## Installation
 
