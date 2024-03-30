@@ -52,7 +52,7 @@ This project is a combination of Angular frontend and Python backend. It provide
     cd backend
     python server.py
     ```
-   IMPORTANT NOTE: once you have run the server for the first time, you will need to open the `server.py` file and comment the line `drop_users_table()`. This line is used to drop the users table in the database, and it should only be executed once. After that, you can comment it again.
+   IMPORTANT NOTE: once you have run the server for the first time, you will need to open the `server.py` file and comment the line `drop_users_table()`. This line is used to drop the users table in the database, and it should only be executed once.
 
 
 2. The backend server will start running at `http://localhost:5000`.
