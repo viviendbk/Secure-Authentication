@@ -27,7 +27,7 @@ This project is a combination of Angular frontend and Python backend. It provide
     ```
 
    
-3. Copy and paste the .env file submitted by the project members on DVL to the backend folder.
+3. Copy and paste the .env file submitted by the project members on DVL to the backend folder. Make sure that the file is named ".env" and not "env".
   
 4. Navigate back to the project root folder and go to the frontend folder:
 
