@@ -3,6 +3,7 @@ from DBUtils import create_users_table, drop_users_table, check_user, create_use
 
 
 app = Flask(__name__)
+drop_users_table()
 create_users_table()
 
 
