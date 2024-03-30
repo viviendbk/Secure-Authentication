@@ -16,7 +16,7 @@ This project is a combination of Angular frontend and Python backend. It provide
 1. Clone the repository to your local machine:
 
     ```bash
-    git clone <repository-url>
+    git clone https://github.com/viviendbk/Secure-Authentication.git
     ```
 
 2. Navigate to the backend folder and install the required Python packages:
@@ -26,14 +26,17 @@ This project is a combination of Angular frontend and Python backend. It provide
     pip install -r requirements.txt
     ```
 
-3. Navigate back to the project root folder and go to the frontend folder:
+   
+3. Copy and paste the .env file submitted by the project members on DVL to the backend folder.
+  
+4. Navigate back to the project root folder and go to the frontend folder:
 
     ```bash
     cd ..
     cd frontend
     ```
 
-4. Install the required npm packages for the Angular frontend:
+5. Install the required npm packages for the Angular frontend:
 
     ```bash
     npm install
@@ -49,6 +52,8 @@ This project is a combination of Angular frontend and Python backend. It provide
     cd backend
     python server.py
     ```
+   IMPORTANT NOTE: once you have run the server for the first time, you will need to open the `server.py` file and comment the line `drop_users_table()`. This line is used to drop the users table in the database, and it should only be executed once. After that, you can comment it again.
+
 
 2. The backend server will start running at `http://localhost:5000`.
 
