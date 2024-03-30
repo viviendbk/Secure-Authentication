@@ -1,6 +1,10 @@
 # Angular/Python Project
 
-This project is a combination of Angular frontend and Python backend. It provides functionalities for user signup, signin, and authentication.
+This project is a combination of Angular frontend and Python backend. It provides functionalities for user signup, signin, and authentication.  
+
+## Members
+- Mathias BALIAN (CCC1)
+- Vivien DEBLOCK (CCC1)
 
 ## Prerequisites
 
